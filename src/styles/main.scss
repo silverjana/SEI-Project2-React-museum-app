@@ -1,0 +1,102 @@
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(3, 71, 93);
+  text-align: center;
+  color: rgb(251, 242, 230);
+
+  main {
+    flex-grow: 1;
+    padding-top: 20px;
+  }
+}
+
+h1 {
+  padding: 20px;
+}
+
+.btn {
+
+  background-color: rgb(78, 215, 219);
+  border: none;
+  color: #fff;
+  margin: 20px;
+
+  &:hover {
+    background-color: darken(rgb(49, 148, 34), 5%);
+  }
+}
+
+.card {
+  height: 35vh;
+
+  img {
+    // width: 100%;
+    max-height: 75%;
+    object-fit: cover;
+  }
+
+  background-color: rgb(236, 235, 226);
+}
+
+.card-body {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-title {
+  color: rgb(91, 48, 8);
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.artist {
+  font-size: 1.3rem;
+}
+
+.hero {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rijksmuseum_Amsterdam_ca_1895_rotated.jpg/1200px-Rijksmuseum_Amsterdam_ca_1895_rotated.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h1 {
+    color: rgb(3, 71, 93);
+  }
+}
+
+.homebtn {
+  margin-top: 51vh;
+  background-color: rgb(78, 215, 219);
+  padding: 25px 60px;
+  border: 2px solid rgb(3, 71, 93);
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.singleImg {
+  max-width: 100%;
+  max-height: 70%;
+}
+
+.navbar {
+  background-color: rgb(78, 215, 219);
+  color: black;
+  font-size: 1.25rem;
+}
+
+.footer {
+  background-color: rgb(9, 100, 130);
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    color: rgb(251, 242, 230);
+  }
+}
