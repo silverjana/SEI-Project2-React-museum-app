@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Quahon';
+  src: url('./fonts/Quahon-9YanK.otf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+
 .site-wrapper {
   display: flex;
   flex-direction: column;
@@ -5,6 +13,7 @@
   background-color: rgb(3, 71, 93);
   text-align: center;
   color: rgb(251, 242, 230);
+  font-family: 'Alegreya', serif;
 
   main {
     flex-grow: 1;
@@ -14,6 +23,13 @@
 
 h1 {
   padding: 20px;
+  font-family: 'Quahon', serif;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .btn {
@@ -22,11 +38,58 @@ h1 {
   border: none;
   color: #fff;
   margin: 20px;
+  font-size: 1.3rem;
 
   &:hover {
     background-color: darken(rgb(49, 148, 34), 5%);
   }
 }
+
+// Header
+
+
+.navbar {
+  background-color: rgb(78, 215, 219);
+  color: black;
+  font-size: 1.7rem;
+  font-family: 'Quahon', serif;
+
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+  font-family: 'Quahon', serif;
+}
+
+// Home
+
+
+.hero {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rijksmuseum_Amsterdam_ca_1895_rotated.jpg/1200px-Rijksmuseum_Amsterdam_ca_1895_rotated.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h1 {
+    color: rgb(3, 71, 93);
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px bisque;
+    padding-top: 5px;
+  }
+}
+
+.homebtn {
+  margin-top: 50vh;
+  background-color: rgb(78, 215, 219);
+  padding: 20px 60px;
+  border: 2px solid rgb(3, 71, 93);
+  border-radius: 10px;
+  font-size: 1.7rem;
+}
+
+
+// painting list
+
 
 .card {
   height: 35vh;
@@ -43,51 +106,40 @@ h1 {
 .card-body {
   display: flex;
   align-items: flex-end;
+  padding-top: 4px;
+  text-align: center;
 }
 
 .card-title {
   color: rgb(91, 48, 8);
   font-size: 1.2rem;
+  
 }
 
-a {
-  text-decoration: none;
-}
+
+
+
+// one item page
+
 
 .artist {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
-.hero {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rijksmuseum_Amsterdam_ca_1895_rotated.jpg/1200px-Rijksmuseum_Amsterdam_ca_1895_rotated.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-  h1 {
-    color: rgb(3, 71, 93);
-  }
-}
-
-.homebtn {
-  margin-top: 51vh;
-  background-color: rgb(78, 215, 219);
-  padding: 25px 60px;
-  border: 2px solid rgb(3, 71, 93);
-  border-radius: 10px;
-  font-size: 1.5rem;
-}
 
 .singleImg {
   max-width: 100%;
-  max-height: 70%;
+  max-height: 90%;
 }
 
-.navbar {
-  background-color: rgb(78, 215, 219);
-  color: black;
-  font-size: 1.25rem;
+p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  font-stretch: expanded;
 }
+
+//footer
+
 
 .footer {
   background-color: rgb(9, 100, 130);
@@ -98,5 +150,6 @@ a {
   a {
     text-decoration: none;
     color: rgb(251, 242, 230);
+    font-family: 'Quahon', serif;
   }
 }
