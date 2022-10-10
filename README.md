@@ -106,7 +106,9 @@ We incorporated a Link to the Museum website in the footer, along with our GitHu
 
 ## Final Product
 
-*coming*
+<img src="https://i.imgur.com/6NN2sso.jpeg" alt="screenshot" width="750"/>
+<img src="https://i.imgur.com/oZWys6M.jpeg" alt="screenshot" width="750"/>
+<img src="https://i.imgur.com/AF6DF1w.png" alt="screenshot" width="750"/>
 
 
 ### Challenges
